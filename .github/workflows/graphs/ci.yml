@@ -30,13 +30,19 @@ executions:
     dst:
       node: run-v1-elephant-peach-koala
       port: exec
+  - src:
+      node: gh-start
+      port: exec-on-pull_request
+    dst:
+      node: gh-actions-checkout-v4-orange-orange-zebra
+      port: exec
 connections: []
 nodes:
   - id: gh-start
     type: gh-start@v1
     position:
-      x: 10
-      y: 10
+      x: 0
+      y: -10
     settings:
       folded: false
   - id: gh-actions-checkout-v4-orange-orange-zebra
