@@ -91,6 +91,20 @@ nodes:
       script: pnpm build
     settings:
       folded: false
+  - id: string-op-v1-cranberry-green-kangaroo
+    type: string-op@v1
+    position:
+      x: 20
+      y: 620
+    settings:
+      folded: false
+  - id: string-op-v1-grape-strawberry-cherry
+    type: string-op@v1
+    position:
+      x: 20
+      y: 620
+    settings:
+      folded: false
 registries:
   - github.com/actions/checkout@v4
   - github.com/pnpm/action-setup@v4.0.0
