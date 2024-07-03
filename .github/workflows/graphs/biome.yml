@@ -1,0 +1,34 @@
+zentry: gh-start
+executions:
+  - src:
+      node: gh-start
+      port: exec-on-push
+    dst:
+      node: gh-checkout
+      port: exec
+  - src:
+      node: gh-start
+      port: exec-on-pull_request
+    dst:
+      node: gh-checkout
+      port: exec
+connections: []
+nodes:
+  - id: gh-start
+    type: gh-start@v1
+    position:
+      x: -60
+      y: -10
+    settings:
+      folded: false
+  - id: gh-checkout
+    type: github.com/actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+    position:
+      x: 450
+      y: 100
+    settings:
+      folded: false
+registries:
+  - github.com/lowlighter/metrics@v3.34
+  - github.com/olmesm/infrastructure-diagram-action@v1.1.0
+description: ""

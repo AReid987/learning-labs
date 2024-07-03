@@ -3,5 +3,7 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+  "WhiteSource Advise.Diff.BaseBranch": "main",
+  "svg.preview.background": "black"
 }
