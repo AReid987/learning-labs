@@ -5,5 +5,9 @@
     }
   ],
   "WhiteSource Advise.Diff.BaseBranch": "main",
-  "svg.preview.background": "black"
+  "svg.preview.background": "black",
+  "conventionalCommits.scopes": [
+    "C4 System Architecture Diagram",
+    "System Setup"
+  ]
 }
