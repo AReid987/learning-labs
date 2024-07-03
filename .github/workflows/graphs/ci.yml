@@ -54,7 +54,7 @@ nodes:
       x: 740
       y: 1030
     inputs:
-      version: "8"
+      version: 9.4.0
     settings:
       folded: false
   - id: gh-actions-setup-node-v4-0-2-strawberry-apple-gray
